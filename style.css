@@ -4,4 +4,9 @@ body{
 
 h1{
     font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: tomato;
+}
+img{
+    padding-left: 35%;
 }

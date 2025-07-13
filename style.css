@@ -1,12 +1,16 @@
-table, th, td {
-    border:2px solid black;
+table{
+    border:3px dashed black;
 }
 
-td{
-    text-align: center;
-}
-
-th{
+th{border: 2px solid black;
     background-color: aquamarine;
     color: coral;
+    font-size: 20px;
+}
+
+td{ border: 1px solid black;
+    color: tomato;
+    text-align: center;
+    font-family: monospace;
+    
 }

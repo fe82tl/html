@@ -1,16 +1,42 @@
-table{
-    border:3px dashed black;
-}
-
-th{border: 2px solid black;
-    background-color: aquamarine;
-    color: coral;
-    font-size: 20px;
-}
-
-td{ border: 1px solid black;
-    color: tomato;
-    text-align: center;
-    font-family: monospace;
+body{
     
+    /* alterar a cor: */
+    background-color: #db8bba;
+    /* display: inline-block; */
+    /* justify-content: center; */
+    /* align-items: center; */
+ }
+
+ .titulo{
+    text-align: center;
+}
+
+ h1{
+/* centralizou o texto */
+    text-align: center;
+ /* borda */
+    border: 2px solid black;
+/* altura da borda */
+    padding: 10px 15px;
+/* arredondar borda */
+    border-radius: 20px;
+/* sombra texto - rotação, distancia e intensidade*/
+    text-shadow: 50px 40px 8px rgba(0, 0, 0, 0.5);
+
+    display:inline-block;
+    margin: 0 auto;
+    align-items: center;
+    color: red;
+}
+
+.lista{
+    color: blue;
+}
+
+.lista1{
+    color:orange;
+}
+
+#parágrafo{
+    color: red;
 }

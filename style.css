@@ -1,42 +1,33 @@
 body{
-    
-    /* alterar a cor: */
-    background-color: #db8bba;
-    /* display: inline-block; */
-    /* justify-content: center; */
-    /* align-items: center; */
- }
-
- .titulo{
-    text-align: center;
+background-color:rgb(201, 198, 198);
 }
 
- h1{
-/* centralizou o texto */
-    text-align: center;
- /* borda */
+.titulo{
+    /* borda: */
     border: 2px solid black;
-/* altura da borda */
-    padding: 10px 15px;
-/* arredondar borda */
-    border-radius: 20px;
-/* sombra texto - rotação, distancia e intensidade*/
-    text-shadow: 50px 40px 8px rgba(0, 0, 0, 0.5);
+    /* preenchimento de dentro da borda: */
+    background-color: aqua;
+    /* espaçamento lateral entre as letras */
+    letter-spacing: 4px;
+    /* espaçamento na altura entre as frases */
+    line-height: 20px;
+    /* centralizar */
+    text-align: center;
+    /* sombreado */
+    box-shadow: 10px 20px 15px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    /* largura da borda (div) */
+    width: 550px;
+    /* arredondamento da borda */
+    border-radius: 100px;
 
-    display:inline-block;
-    margin: 0 auto;
-    align-items: center;
+}
+/* dentro duma mesma classe, selecionar algo diferente */
+.titulo1{
     color: red;
 }
 
-.lista{
-    color: blue;
-}
-
-.lista1{
-    color:orange;
-}
-
-#parágrafo{
-    color: red;
+.conteudo{
+    width: 300px;
+    text-align: justify;
 }

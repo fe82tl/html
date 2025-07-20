@@ -24,10 +24,29 @@ background-color:rgb(201, 198, 198);
 }
 /* dentro duma mesma classe, selecionar algo diferente */
 .titulo1{
-    color: red;
+    color: rgb(255, 0, 0);
 }
 
 .conteudo{
     width: 300px;
     text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    gap: 10px;
 }
+
+.conteudo p:first-child{
+    flex-basis: 60%;
+    flex-grow: 1;
+}
+
+.conteudo p:last-child {
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+
+
+
+    
